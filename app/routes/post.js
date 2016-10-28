@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model(params) {
-    return.this.store.findRecord('post', params.post_id);
+    return this.store.findRecord('post', params.post_id);
   },
   actions: {
     update(post, params) {
@@ -11,8 +11,8 @@ export default Ember.Route.extend({
           post.set(key,params[key]);
         }
       });
-    post.save();
-    this.transitionTo('index');
+      post.save();
+      this.transitionTo('index');
     },
     destroyPost(post) {
       post.destroyRecord();
