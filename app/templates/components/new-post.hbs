@@ -1,1 +1,5 @@
-{{yield}}
+{{#if addNewPost}}
+  <p>Display new post form</p>
+  {{else}}
+  <button {{action 'postFormShow'}}>New Post</button>
+{{/if}}
