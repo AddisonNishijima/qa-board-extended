@@ -20,25 +20,23 @@ ul {
 }
 
 .container h1 {
-  font-family: 'Coiny', cursive;
+  font-family: 'Fredericka the Great', cursive;
   font-size: 40px;
-  text-shadow: 3px 3px 3px white;
 }
 
 .jumbotron {
   border: solid 1px black;
   background-color: #63E9E8;
   text-align: center;
-  font-family: 'Coiny', cursive;
+  font-family: 'Fredericka the Great', cursive;
   -webkit-box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
   -moz-box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
   box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
 }
 
 .jumbotron h1 {
-  font-family: 'Coiny', cursive;
+  font-family: 'Fredericka the Great', cursive;
   font-size: 100px;
-  text-shadow: 3px 3px 3px white;
 }
 
 .jumbotron h4 {
@@ -51,12 +49,12 @@ ul {
 }
 
 h2 {
-  font-family: 'Coiny', cursive;
+  font-family: 'Fredericka the Great', cursive;
   font-size: 28px;
 }
 
 h4 {
-  font-family: 'Coiny', cursive;
+  font-family: 'Fredericka the Great', cursive;
   font-size: 25px;
 }
 
@@ -66,7 +64,7 @@ p {
 }
 
 a {
-  color: teal;
+  color: #0b4447;
 }
 
 footer {
