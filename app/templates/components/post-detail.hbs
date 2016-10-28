@@ -1,1 +1,7 @@
-{{yield}}
+<div class="container">
+  <h4>Post Author: </h4>{{post.author}}
+  <h4>Question:</h4> "{{post.question}}"
+  <h4>Additional Notes: </h4>{{post.notes}}
+
+  <button {{action 'delete' post}}>Delete Post</button>
+</div>
