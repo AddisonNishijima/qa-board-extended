@@ -1,5 +1,7 @@
 body {
   background-image:url('/images/bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ul {
@@ -9,4 +11,9 @@ ul {
 
 .container {
   text-align: center;
+}
+
+.jumbotron {
+  border: dotted 3px black;
+  background-color: lightgray;
 }
