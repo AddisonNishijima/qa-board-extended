@@ -17,7 +17,7 @@ export default Ember.Route.extend({
           post.set(key,params[key]);
         }
       });
-    }post.save();
+    post.save();
     this.transitionTo('index');
     },
     destroyPost(post) {
