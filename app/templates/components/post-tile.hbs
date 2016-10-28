@@ -1,1 +1,4 @@
-<li>{{post.author}}'s question: "{{post.question}}"</li>
+<li>
+  <p>{{post.author}}'s question: "{{post.question}}"</p>
+  <button {{action 'delete' post}}>Delete Post</button>
+</li>
