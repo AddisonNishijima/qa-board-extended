@@ -1,15 +1,13 @@
-<div class="container">
-  <h4>Post Author: </h4>{{post.author}}
-  <h4>Question:</h4> "{{post.question}}"
-  <h4>Additional Notes: </h4>{{post.notes}}
-</div>
-<button {{action 'delete' post}}>Delete Post</button>
+<h4>Post Author: </h4> <p>{{post.author}}</p>
+<h4>Question:</h4>  <p>"{{post.question}}"</p>
+<h4>Additional Notes: </h4> <p>{{post.notes}}</p>
+<br>
+<button class="btn btn-danger"{{action 'delete' post}}>Delete Post</button>
 
-<div class="container">
-  <h2>Comments</h2>
-  <ul>
-    {{#each post.comments as |comment|}}
-    {{comment-tile comment=comment destroyComment="destroyComment"}}
-    {{/each}}
-  </ul>
-</div>
+
+<h2>Comments</h2>
+<ul>
+  {{#each post.comments as |comment|}}
+  {{comment-tile comment=comment destroyComment="destroyComment"}}
+  {{/each}}
+</ul>

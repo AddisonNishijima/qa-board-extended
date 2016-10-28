@@ -1,20 +1,10 @@
-<div class="container">
-  <h1>Welcome to the QA Board</h1>
-  <p>Please be polite and respect others when asking and answering questions</p>
+<h1>Welcome to the QA Board</h1>
+<p>Please be polite and respect others when asking and answering questions</p>
 
-  <ul>
-    {{#each model.posts as |post|}}
-    {{post-tile post=post}}
-    {{/each}}
-  </ul>
+<ul>
+  {{#each model.posts as |post|}}
+  {{post-tile post=post}}
+  {{/each}}
+</ul>
 
-  {{new-post savePost2="savePost3"}}
-
-  <h2> All Comments </h2>
-
-  <ul>
-    {{#each model.comments as |comment|}}
-      <li>{{comment.content}} - by {{comment.author}}</li>
-    {{/each}}
-  </ul>
-</div>
+{{new-post savePost2="savePost3"}}

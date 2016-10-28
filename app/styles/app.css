@@ -1,7 +1,6 @@
 body {
-  background-image:url('/images/bg.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image:url('/images/bg.png');
+  background-repeat: repeat-x;
 }
 
 ul {
@@ -10,10 +9,75 @@ ul {
 }
 
 .container {
+  margin-top: 50px;
   text-align: center;
+  background-image:url('/images/container.png');
+  background-repeat: repeat-x;
+  border: solid black 1px;
+  -webkit-box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
+  -moz-box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
+  box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
+}
+
+.container h1 {
+  font-family: 'Coiny', cursive;
+  font-size: 40px;
 }
 
 .jumbotron {
-  border: dotted 3px black;
-  background-color: lightgray;
+  border: solid 1px black;
+  background-color: #63E9E8;
+  text-align: center;
+  font-family: 'Coiny', cursive;
+  -webkit-box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
+  -moz-box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
+  box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
+}
+
+.jumbotron h1 {
+  font-family: 'Coiny', cursive;
+  font-size: 100px;
+}
+
+.jumbotron h4 {
+  font-size: 30px;
+}
+
+#footer {
+  margin-top: 50px;
+  font-family: 'Coiny', cursive;
+}
+
+h2 {
+  font-family: 'Coiny', cursive;
+  font-size: 28px;
+}
+
+h4 {
+  font-family: 'Coiny', cursive;
+  font-size: 25px;
+}
+
+p {
+  margin: 10px;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+li {
+  background-color: white;
+  border: solid 1px black;
+  font-size: 20px;
+  margin: 10px 10px 10px 10px;
+}
+
+button {
+  margin: 10px;
+}
+
+.btn-lg {
+  margin: 20px;
 }
