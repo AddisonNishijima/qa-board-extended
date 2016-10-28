@@ -1,0 +1,12 @@
+body {
+  background-image:url('/images/bg.jpeg');
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
