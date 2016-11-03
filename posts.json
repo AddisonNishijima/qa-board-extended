@@ -12,10 +12,10 @@
   "notes": "N/A"
   }],
   "comments": [{
-    "author": "Pip2323",
+    "commenter": "Pip2323",
     "content": "This board is awesome!"
   },{
-    "author": "Panic!atTheCodeReview",
+    "commenter": "Panic!atTheCodeReview",
     "content": "Always a great place for my questions to be answered!"
     }]
 }
