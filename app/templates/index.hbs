@@ -1,10 +1,17 @@
-<h1>Welcome to the QA Board</h1>
-<p>Please be polite and respect others when asking and answering questions</p>
-
-<ul>
-  {{#each model.posts as |post|}}
-  {{post-tile post=post}}
-  {{/each}}
-</ul>
-
-{{new-post savePost2="savePost3"}}
+<div class="col-sm-1">
+</div>
+<div class="col-sm-9">
+  <div class="header">
+    Questions
+  </div>
+  <ul>
+    {{#each model.posts as |post|}}
+    {{post-tile post=post}}
+    {{/each}}
+  </ul>
+  {{new-post savePost2="savePost3"}}
+</div>
+<div class="col-sm-2">
+  <h4>Welcome</h4>
+  <p>Please be respectful to fellow posters</p>
+</div>

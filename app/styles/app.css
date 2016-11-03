@@ -1,6 +1,5 @@
 body {
-  background-image:url('/images/bg.png');
-  background-repeat: repeat-x;
+  background-image:url('/images/cosmic.jpg');
 }
 
 ul {
@@ -8,53 +7,50 @@ ul {
   text-align: center;
 }
 
-.container {
-  margin-top: 50px;
+.header {
+  border: solid 1px black;
+  margin-top: 5px;
+  font-family: 'Abel', sans-serif;
+  font-size: 30px;
   text-align: center;
-  background-image:url('/images/container.png');
-  background-repeat: repeat-x;
-  border: solid black 1px;
-  -webkit-box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
-  -moz-box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
-  box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
-}
-
-.container h1 {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 40px;
+  background-color: #dbdbdb;
 }
 
 .jumbotron {
   border: solid 1px black;
-  background-color: #63E9E8;
-  text-align: center;
-  font-family: 'Fredericka the Great', cursive;
-  -webkit-box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
-  -moz-box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
-  box-shadow: 0px 17px 34px -2px rgba(21,71,69,1);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
 }
 
 .jumbotron h1 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Abel', sans-serif;
+  color: lightgray;
   font-size: 100px;
+  text-align: center;
 }
 
 .jumbotron h4 {
   font-size: 30px;
+  text-align: center;
+  color: lightgray;
+}
+
+#introduction {
+  text-align: center;
 }
 
 #footer {
   margin-top: 50px;
-  font-family: 'Coiny', cursive;
+  font-family: 'Abel', sans-serif;
 }
 
 h2 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Abel', sans-serif;
   font-size: 28px;
 }
 
 h4 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Abel', sans-serif;
   font-size: 25px;
 }
 
@@ -72,7 +68,7 @@ p {
 }
 
 a {
-  color: #0b4447;
+  color: darkgray;
 }
 
 footer {
@@ -80,10 +76,15 @@ footer {
 }
 
 li {
-  background-color: white;
+  background-color: #dbdbdb;
   border: solid 1px black;
   font-size: 20px;
   margin: 10px 10px 10px 10px;
+  text-shadow: 1px 1px lightgray;
+}
+
+li a {
+  color: black;
 }
 
 button {
@@ -168,4 +169,30 @@ fieldset[disabled] .btn-danger.active {
 	background: -ms-linear-gradient(top,  #267c99 50%,#007299 50%); /* IE10+ */
 	background: linear-gradient(to bottom,  #267c99 50%,#007299 50%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#267c99', endColorstr='#007299',GradientType=0 ); /* IE6-9 */
+}
+
+.col-sm-9 {
+  border: solid 1px black;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  text-align: center;
+}
+.col-sm-2 {
+  text-align: center;
+}
+
+#postdetails {
+  color: lightgray;
+  text-align: center;
+}
+
+#about {
+  color: lightgray;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+#contact {
+  color: lightgray;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
 }
