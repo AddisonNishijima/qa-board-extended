@@ -83,6 +83,10 @@ li {
   text-shadow: 1px 1px lightgray;
 }
 
+#comment {
+ color: black;
+}
+
 li a {
   color: black;
 }
