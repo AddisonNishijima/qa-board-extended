@@ -73,6 +73,7 @@ a {
 
 footer {
   text-align: center;
+  text-shadow: 1px 1px 15px white;
 }
 
 li {
@@ -183,6 +184,13 @@ fieldset[disabled] .btn-danger.active {
 }
 .col-sm-2 {
   text-align: center;
+}
+.col-sm-2 a {
+  color: #4f4f4f;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px white;
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
 }
 
 #postdetails {
