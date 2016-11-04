@@ -1,5 +1,5 @@
 <li>
 {{post-popularity post}}<p>{{#link-to 'post' post.id}}{{post.author}}'s question: "{{post.question}}"{{/link-to}}</p>
 
-<h6 {{action 'addToFavorite' post}}>Add to Favorites</h6>
+<button class="button_favorite" {{action 'addToFavorite' post}}>Add to Favorites</button>
 </li>
