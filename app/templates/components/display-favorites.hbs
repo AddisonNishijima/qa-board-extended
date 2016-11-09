@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-sm-9">
+    <div class="header">
+      Favorite Questions
+    </div>
+
+    {{#each favoritePost.favorites as |favorite|}}
+      <li>{{favorite.author}}'s question: "{{favorite.question}}"</li>
+    {{/each}}
+  </div>
+</div>
