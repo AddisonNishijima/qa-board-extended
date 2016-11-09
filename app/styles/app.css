@@ -212,6 +212,7 @@ button {
   background-color: #dbdbdb;
   border: solid 1px black;
   font-size: 20px;
+  padding: 10px;
   margin: 10px 10px 10px 10px;
   text-shadow: 1px 1px lightgray;
   list-style-type: none;
